@@ -1,0 +1,306 @@
+/*Dispositivos moviles*/
+.bg-segutal{
+    background-color: #f1771B;
+}
+
+.content-logo{
+    margin: 3rem 5rem; 
+}
+
+@media(min-width:768px){
+    .content-logo{
+        width: 40rem;
+        height: 15rem;
+        margin: 0 auto 10rem auto;
+    }
+}
+
+h4{
+    font-size: 2rem;
+}
+
+/* Tablet */
+@media(min-width:768px){
+    p{
+        font-size: 2rem;
+    }    
+}
+
+hr{
+    margin: 0;
+}
+
+ul{
+    list-style: none;    
+}
+
+a{
+    text-decoration: none!important;
+}
+
+.content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+
+.opcion{
+    border-radius: 0.3rem;
+}
+
+.icon{
+    flex-basis: calc(20% - 1rem);
+    font-size: 5rem;
+    text-shadow: 1px 0px 1px rgba(172, 164, 164, 0.9);
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+/* Tablet */
+@media(min-width: 768px){
+    .menu-principal{
+        width: 70%;
+    }
+
+    .icon{
+        font-size: 7rem;
+    }
+
+    h4{
+        font-size: 2.4rem;
+    }
+
+    .content{
+        padding: 0 2rem;
+    }
+}
+
+/* PC */
+@media(min-width: 992px){
+    .content{
+        display: block;
+        padding: 0;
+    }
+
+    .menu-principal{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .opcion{
+        flex-basis: calc(20% - 1rem);
+        height: 25rem;
+        text-align: center;
+        border-radius: 0.3rem;
+    }
+
+    .icon{
+        font-size: 10rem;
+        line-height: 15rem;
+    }
+
+}
+
+/* Fondos de las tarjetas*/
+
+.opt1{
+    background-color:rgba(41, 125, 171, 0.20);
+}
+
+.opt2{
+    background-color: rgba(164, 223, 173, 0.50);
+}
+
+.opt3{
+    background-color: rgba(105, 35, 38, 0.20);
+}
+
+.opt4{
+    background-color: rgba(111, 52, 23, 0.20);
+}
+
+.opt5{
+    background-color: rgba(12, 49, 76, 0.20);
+}
+
+/* Configuracion de color de cada icono*/
+
+.icon1{
+    color: rgba(41, 125, 171, 0.76);
+}
+
+.icon2{
+    color: rgb(102, 173, 95);
+}
+
+.icon3{
+    color: rgba(105, 35, 38, 0.68);
+}
+
+.icon4{
+    color: rgba(111, 52, 23, 0.85);
+}
+
+.icon5{
+    color: rgba(12, 49, 76, 0.85);
+}
+
+/*Configuración del texto*/
+
+.text-opt1{
+    color:rgb(9,87,144);
+}
+
+.text-opt2{
+    color: rgb(49, 116, 42);
+}
+
+.text-opt3{
+    color: rgb(105, 35, 39);
+}
+
+.text-opt4{
+    color: rgb(111, 52, 23);
+}
+
+.text-opt5{
+    color: rgb(12, 49, 76);
+}
+
+.opcion:hover .text-content{
+    -webkit-animation: moveFromBottom 500ms ease;
+    -moz-animation: moveFromBottom 500ms ease;
+    -ms-animation: moveFromBottom 500ms ease;
+}
+
+
+/*Hover a cada icono*/
+.opcion:hover .icon1{
+    text-shadow: 0px 0px 20px #297eab85;
+    color: #297dab;
+    -webkit-animation: moveFromTop 400ms ease;
+    -moz-animation: moveFromTop 400ms ease;
+    -ms-animation: moveFromTop 400ms ease;
+}
+
+.opcion:hover .icon2{
+    text-shadow: 0px 0px 20px #84c77c;
+    color: rgb(56, 138, 49);
+    -webkit-animation: moveFromTop 400ms ease;
+    -moz-animation: moveFromTop 400ms ease;
+    -ms-animation: moveFromTop 400ms ease;
+}
+
+.opcion:hover .icon3{
+    text-shadow: 0px 0px 20px rgba(105, 35, 38, 0.548);
+    color: rgb(105, 35, 38);
+    -webkit-animation: moveFromTop 400ms ease;
+    -moz-animation: moveFromTop 400ms ease;
+    -ms-animation: moveFromTop 400ms ease;
+}
+
+.opcion:hover .icon4{
+    text-shadow: 0px 0px 20px rgba(111, 52, 23, 0.555);
+    color: rgb(111, 52, 23);
+    -webkit-animation: moveFromTop 400ms ease;
+    -moz-animation: moveFromTop 400ms ease;
+    -ms-animation: moveFromTop 400ms ease;
+}
+
+.opcion:hover .icon5{
+    text-shadow: 0px 0px 20px rgba(12, 49, 76, 0.562);;
+    color: rgba(12, 49, 76, 0.85);
+    -webkit-animation: moveFromTop 400ms ease;
+    -moz-animation: moveFromTop 400ms ease;
+    -ms-animation: moveFromTop 400ms ease;
+}
+
+
+/* Animación*/
+
+@-webkit-keyframes moveFromTop {
+    from {
+        -webkit-transform: translateY(-100%);
+    }
+    to {
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@-moz-keyframes moveFromTop {
+    from {
+        -moz-transform: translateY(-100%);
+    }
+    to {
+        -moz-transform: translateY(0%);
+    }
+}
+
+@-ms-keyframes moveFromTop {
+    from {
+        -ms-transform: translateY(-100%);
+    }
+    to {
+        -ms-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes moveFromBottom {
+    from {
+        -webkit-transform: translateY(90%);
+    }
+    to {
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@-moz-keyframes moveFromBottom {
+    from {
+        -moz-transform: translateY(90%);
+    }
+    to {
+        -moz-transform: translateY(0%);
+    }
+}
+
+@-ms-keyframes moveFromBottom {
+    from {
+        -ms-transform: translateY(90%);
+    }
+    to {
+        -ms-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes moveFromLeft{
+    from {
+        -webkit-transform: translateX(-400%);
+    }
+    to {
+        -webkit-transform: translateX(0%);
+    }
+}
+
+@-moz-keyframes moveFromLeft{
+    from {
+        -moz-transform: translateX(-400%);
+    }
+    to {
+        -moz-transform: translateX(0%);
+    }
+}
+
+@-ms-keyframes moveFromLeft{
+    from {
+        -ms-transform: translateX(-400%);
+    }
+    to {
+        -ms-transform: translateX(0%);
+    }
+}
+

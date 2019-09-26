@@ -1,0 +1,45 @@
+.info-usu{
+    background-color: #f1771B;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2rem 0 4rem 0; 
+    padding: 0.5rem 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+p{
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif, Arial;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 0; 
+    text-align: center
+}
+
+@media(min-width:768px){
+    .info-usu{
+        justify-content: flex-end;
+        width: 80%;
+        margin: 3rem 0 4rem 0; 
+        float: right;
+    }
+
+    .info-item{
+        margin-right: 1rem;
+    }
+
+    p{
+        font-size: 1.6rem;
+    }
+}
+
+@media(min-width: 1024px){
+    .info-usu{
+        width:60%;
+    }
+
+    .info-item{
+        margin-right: 5rem;
+    }
+}

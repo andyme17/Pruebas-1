@@ -1,0 +1,125 @@
+<div class="wrapper">
+  <!-- Sidebar  -->
+  <nav id="sidebar">
+    <!--Cierra sidebar en dispositivos moviles-->
+    <div id="close" (click)="hiddenSidebar()" class="float-right">
+      <i class="fas fa-times"></i>
+    </div>
+
+    <div class="sidebar-header">
+      <!--Logo para PC-->
+      <logo></logo>
+      <!--Logo en dispositivos moviles-->
+      <i class="logo-sm fas fa-truck"></i>
+    </div>
+
+    <!--Opciones de menu-->
+    <ul class="list-unstyled components">
+      <li>
+        <a [routerLink]="['/inicio']">
+          <i class="fas fa-home"></i>Inicio
+        </a>
+      </li>
+      <li>
+        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+          <i class="fas fa-city mr-2 mr-lg-3 "></i>
+          Bases
+        </a>
+
+        <!--Opciones del submenu de bases-->
+        <ul class="collapse list-unstyled" id="pageSubmenu">
+          <li>
+            <a href="#">Hermosillo</a>
+          </li>
+          <li>
+            <a href="#">Manzanillo</a>
+          </li>
+          <li>
+            <a href="#">San Luis Potosí</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a [routerLink]="['/viajes-y-documentos/nuevo-viaje']">
+          <i class="fas fa-plus-circle"></i>
+          Nuevo Viaje
+        </a>
+      </li>
+      <li>
+        <a [routerLink]="['/viajes-y-documentos/lista-viajes']">
+          <i class="fas fa-list-alt"></i>
+          Lista de Viajes
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal-->
+  <div id="content">
+    <button (click)="showSidebar()" type="button" id="sidebarCollapse" class="btn btn-menu">
+      <i class="fas fa-align-justify fa-2x"></i>
+    </button>
+    <main class="container">
+      <h3 class="mt-3 mb-5 text-center">LISTA DE VIAJES</h3>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Acción</th>
+            <th scope="col">Bases</th>
+            <th scope="col">Folio</th>
+            <th scope="col">Unidad Motriz</th>
+            <th scope="col">Mercancía</th>
+            <th scope="col">Servicio</th>
+            <th scope="col">SAP</th>
+            <th scope="col">Operador</th>
+            <th scope="col">Dotación Diesel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="acciones"><i class="fas fa-info-circle"></i>
+              <i class="fas fa-envelope"></i>
+              <i class="fas fa-times-circle"></i>
+            </td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <td class="acciones"><i class="fas fa-info-circle"></i>
+              <i class="fas fa-envelope"></i>
+              <i class="fas fa-times-circle"></i>
+            </td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <td class="acciones"><i class="fas fa-info-circle"></i>
+              <i class="fas fa-envelope"></i>
+              <i class="fas fa-times-circle"></i>
+            </td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </div>
+</div>

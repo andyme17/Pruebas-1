@@ -1,0 +1,44 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*Reseet tamaño base para REM 62.5%=10px*/
+    font-family: 'Roboto', sans-serif, arial;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.4rem;
+}
+
+.bg-segutal{
+    background-color: #f1771B;
+}
+/* 
+@media(max-width: 991.98px){
+    html{
+        font-size: 14px;
+    }    
+}
+ */
+
+
+
