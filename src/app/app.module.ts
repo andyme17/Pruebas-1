@@ -9,7 +9,6 @@ import { MenuPrincipalComponent } from './viajes/menu-principal/menu-principal.c
 import { SideBarComponent } from './viajes/side-bar/side-bar.component';
 import { LoginComponent } from './viajes/login/login.component';
 import { NuevoViajeComponent } from './viajes/nuevo-viaje/nuevo-viaje.component';
-import { NavButtonComponent } from './viajes/nav-button/nav-button.component';
 import { CrearViajeComponent } from './viajes/crear-viaje/crear-viaje.component';
 import { ListaViajesComponent } from './viajes/lista-viajes/lista-viajes.component';
 import { LogoComponent } from './viajes/logo/logo.component';
@@ -23,7 +22,6 @@ import { InfoUsuComponent } from './viajes/info-usu/info-usu.component';
     SideBarComponent,
     LoginComponent,
     NuevoViajeComponent,
-    NavButtonComponent,
     CrearViajeComponent,
     ListaViajesComponent,
     LogoComponent,
