@@ -13,6 +13,7 @@ import { CrearViajeComponent } from './viajes/crear-viaje/crear-viaje.component'
 import { ListaViajesComponent } from './viajes/lista-viajes/lista-viajes.component';
 import { LogoComponent } from './viajes/logo/logo.component';
 import { InfoUsuComponent } from './viajes/info-usu/info-usu.component';
+import { SidebarInfoComponent } from './viajes/sidebar-info/sidebar-info.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { InfoUsuComponent } from './viajes/info-usu/info-usu.component';
     ListaViajesComponent,
     LogoComponent,
     InfoUsuComponent,
+    SidebarInfoComponent,
   ],
   imports: [
     BrowserModule,
